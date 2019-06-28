@@ -208,7 +208,10 @@ var Legend = Element.extend({
 			});
 		}
 
-		if (me.options.reverse) {
+		if (me.options.sort && typeof(me.options.sort) === 'function') {
+			legendItems.sort(me.options.sort);
+		}
+		else if (me.options.reverse) {
 			legendItems.reverse();
 		}
 

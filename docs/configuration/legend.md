@@ -14,6 +14,7 @@ The legend configuration is passed into the `options.legend` namespace. The glob
 | `onClick` | `function` | | A callback that is called when a click event is registered on a label item.
 | `onHover` | `function` | | A callback that is called when a 'mousemove' event is registered on top of a label item.
 | `onLeave` | `function` | | A callback that is called when a 'mousemove' event is registered outside of a previously hovered label item.
+| `sort` | `function` | | A compare function for sorting datasets array.
 | `reverse` | `boolean` | `false` | Legend will show datasets in reverse order.
 | `labels` | `object` | | See the [Legend Label Configuration](#legend-label-configuration) section below.
 
